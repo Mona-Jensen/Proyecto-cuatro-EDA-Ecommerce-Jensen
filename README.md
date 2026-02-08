@@ -1,24 +1,23 @@
 # 📊 Análisis Exploratorio y Predictivo: E-commerce Customer Behavior
 **Estudiante:** Gianina Jensen  
 **Proyecto:** Examen Final de Análisis de Datos  
+> ### 📥 **[DESCARGAR INFORME TÉCNICO AQUÍ]
+---
 
-## 🎯 Objetivo
-Desarrollar un flujo de trabajo integral de Ciencia de Datos que abarque desde la auditoría inicial de calidad hasta la implementación de un modelo predictivo de ingresos para un entorno de E-commerce.
+## 🎯 Objetivo del Proyecto
+Implementar un flujo de Ciencia de Datos que integra auditoría de calidad, análisis estadístico y un modelo de regresión lineal para la toma de decisiones estratégicas.
 
-## 🛠️ Tecnologías Utilizadas
-* **Python 3.x**
-* **Librerías:** Pandas (Gestión de datos), Seaborn/Matplotlib (Visualización), Statsmodels (Regresión Lineal).
+## 📈 Hallazgos Clave
+* **Integridad de Datos:** Auditoría IDA completada con éxito; solo se detectaron 2 valores nulos en la columna de satisfacción.
+* **Correlación de Ingresos:** Se confirmó un coeficiente de **0.97** entre artículos comprados y gasto total.
+* **Precisión del Modelo:** Regresión Lineal con un **$R^2 = 0.9456$**, garantizando proyecciones financieras altamente confiables.
 
-## 📈 Hallazgos Clave del Análisis
-1. **Auditoría de Datos (IDA):** Se identificó una integridad del 99.4%, detectando únicamente **2 valores nulos** en la columna de satisfacción.
-2. **Drivers de Venta:** Se halló una correlación de **0.97** entre el número de artículos comprados y el gasto total.
-3. **Modelo Predictivo:** Se implementó una Regresión Lineal con un **$R^2 = 0.9456$**, logrando una precisión diagnóstica superior al 94% para proyecciones financieras.
-4. **Segmentación:** Los clientes **Gold** muestran el comportamiento de compra más estable y rentable para la compañía.
+## 📂 Estructura del Repositorio
+* `Analisis_Predictivo_Ecommerce_Jensen.py`: Script maestro unificado.
+* `Informe_Final_..._.pdf`: Reporte técnico final en formato PDF.
+* `01-06_*.png`: Visualizaciones de auditoría y rendimiento del modelo.
+* `E-commerce Customer Behavior - Sheet1.csv`: Dataset original.
 
-## 📂 Contenido del Repositorio
-* `Analisis_Predictivo_Ecommerce_Jensen.py`: Código maestro unificado.
-* `E-commerce Customer Behavior - Sheet1.csv`: Dataset fuente.
-* `01-06_*.png`: Gráficos de auditoría y resultados del modelo.
 
 ---
-*Este proyecto incluye un script de validación automática que certifica la generación de todos los activos visuales presentados.*
+*Repositorio actualizado y validado mediante control de versiones Git.*
