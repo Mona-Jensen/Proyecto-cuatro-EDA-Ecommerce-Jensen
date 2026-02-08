@@ -1,23 +1,25 @@
 # 📊 Análisis Exploratorio y Predictivo: E-commerce Customer Behavior
+
 **Estudiante:** Gianina Jensen  
 **Proyecto:** Examen Final de Análisis de Datos  
-> ### 📥 **[DESCARGAR INFORME TÉCNICO AQUÍ]
+
+## 📂 Documentación Principal
+* [📥 **DESCARGAR INFORME TÉCNICO FINAL (PDF)**](./Informe_Final_Análisis_de_Comportamiento_y_Predicción_de_Ventas.pdf)
+* [🐍 Ver Código Fuente (Python)](./Analisis_Predictivo_Ecommerce_Jensen.py)
+
 ---
 
 ## 🎯 Objetivo del Proyecto
-Implementar un flujo de Ciencia de Datos que integra auditoría de calidad, análisis estadístico y un modelo de regresión lineal para la toma de decisiones estratégicas.
+Implementar un flujo de Ciencia de Datos integral que abarque desde la auditoría de calidad (IDA) hasta la implementación de un modelo predictivo de ingresos para un entorno de E-commerce.
 
 ## 📈 Hallazgos Clave
-* **Integridad de Datos:** Auditoría IDA completada con éxito; solo se detectaron 2 valores nulos en la columna de satisfacción.
-* **Correlación de Ingresos:** Se confirmó un coeficiente de **0.97** entre artículos comprados y gasto total.
-* **Precisión del Modelo:** Regresión Lineal con un **$R^2 = 0.9456$**, garantizando proyecciones financieras altamente confiables.
+1.  **Calidad de Datos:** Auditoría completada con éxito. Se detectaron únicamente 2 valores nulos en la métrica de satisfacción.
+2.  **Correlación:** Se halló un coeficiente de **0.97** entre artículos comprados y gasto total.
+3.  **Modelo Predictivo:** Regresión Lineal con un **$R^2 = 0.9456$**, logrando una precisión diagnóstica superior al 94%.
 
-## 📂 Estructura del Repositorio
-* `Analisis_Predictivo_Ecommerce_Jensen.py`: Script maestro unificado.
-* `Informe_Final_..._.pdf`: Reporte técnico final en formato PDF.
-* `01-06_*.png`: Visualizaciones de auditoría y rendimiento del modelo.
-* `E-commerce Customer Behavior - Sheet1.csv`: Dataset original.
-
+## 🛠️ Tecnologías
+* Python 3.x (Pandas, Seaborn, Matplotlib, Statsmodels).
+* Control de versiones con Git & GitHub.
 
 ---
-*Repositorio actualizado y validado mediante control de versiones Git.*
+*Este repositorio contiene los 6 activos visuales generados automáticamente por el script maestro.*
